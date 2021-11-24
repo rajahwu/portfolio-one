@@ -1,0 +1,22 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #A6A08F;
+    color: #000000;
+}
+h1 {
+    font-family: 'Concert One', cursive;
+    color: #73694C;
+    font-weight: 800;
+}
+
+h2,
+h3 {
+    font-family: 'Dosis', sans-serif;
+color: #F2F0E9;
+}
+    
+
+main    {
+    font-family: 'Space Mono', monospace;
+}
+
