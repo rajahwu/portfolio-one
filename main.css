@@ -1,22 +1,41 @@
 body {
     font-family: 'Space Mono', monospace;
-    background-color: #A6A08F;
-    color: #000000;
+    background-color: #000000;
+    color: #F2F0E9;
 }
+
 h1 {
     font-family: 'Concert One', cursive;
-    color: #73694C;
+    color: #00DB1A;
     font-weight: 800;
+    animation: titleColor 1.5s linear 1.5s 3;
 }
+
+ /* The animation code */
+ @keyframes titleColor {
+    0% {color: #00DB1A;}
+    25% {color: #000000}
+    50% {color: #F2F0E9;}
+    100% {color: #000000;}
+    
+  }
+  
+  /* The element to apply the animation to */
+  /* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }  */
 
 h2,
 h3 {
     font-family: 'Dosis', sans-serif;
-color: #F2F0E9;
+    color: #005C0B;
 }
-    
 
-main    {
+
+main {
     font-family: 'Space Mono', monospace;
 }
-
